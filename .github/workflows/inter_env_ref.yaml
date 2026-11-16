@@ -12,7 +12,7 @@ jobs:
     env:
       APP_NAME: MyPythonApp
       PYTHON_VERSION: '3.12'
-      TEST_MODE: 'development'
+      TEST_MODE: 'production'
       ACTOR: ${{ github.actor }}
 
     steps:
